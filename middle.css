@@ -1,0 +1,391 @@
+body {
+    margin: 0;
+    font-family: "Hiragino Kaku Gothic ProN";
+}
+
+a{
+    text-decoration: none;
+}
+
+.clear {
+    clear: left;
+}
+
+header {
+    height: 65px;
+    width: 100%;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    z-index: 10;
+}
+
+.header-left {
+    float: left;
+}
+
+.logo {
+    width: 140px;
+    margin-top: 10px;
+}
+
+.header-right {
+    float: right;
+    background-color: rgba(148, 143, 143, 0.6);
+    transition: all 0.5s;
+}
+
+.header-right:hover {
+    background-color: rgba(148, 143, 143, 0.8);
+}
+
+.header-right .login {
+    line-height: 65px;
+    padding: 0 25px;
+    color: white;
+    display: block;
+}
+
+.login-modal-wrapper, .signup-modal-wrapper {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 100;
+    display: none;
+  }
+  
+.modal {
+    position: absolute;
+    top: 20%;
+    left: 34%;
+    background-color: #e6ecf0;
+    padding: 20px 0 40px;
+    border-radius: 10px;
+    width: 450px;
+    height: auto;
+    text-align: center;
+}
+  
+.fa-times {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    color: rgba(128, 128, 128, 0.46);
+    cursor: pointer;
+}
+  
+#signup-form, #login-form {
+    width: 100%;
+}
+  
+#signup-form h2, #login-form h2 {
+    color: #5f5d60;
+    letter-spacing: 1px;
+    margin-bottom: 40px;
+}
+  
+#signup-form input, #login-form input {
+    width: 320px;
+    margin-bottom: 20px;
+    font-size: 12px;
+    padding: 12px 12px;
+    border: 1px solid #d0d5d8;
+    border-radius: 5px;
+}
+  
+#submit-btn {
+    display: inline-block;
+    padding: 14px 140px;
+    background-color: #5dca88;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    margin: 10px auto;
+    cursor: pointer;
+}
+
+.container {
+    max-width: 1170px;
+    padding: 0 15px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.top-wrapper {
+    padding: 180px 0 100px 0;
+    background-image: url("file:///Users/motyu20/Downloads/1ce9dfe9b1c8d13046df386cf1693335_s.jpg");
+    color: white;
+    background-size: cover;
+    text-align: center;
+}
+
+.top-wrapper h1 {
+    opacity: 1;
+    font-size: 45px;
+    letter-spacing: 5px;
+}
+
+.top-wrapper p {
+    opacity: 0.8;
+}
+
+.btn {
+    padding: 8px 24px;
+    color:white;
+    display: inline-block;
+    opacity: 0.8;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btn:hover{
+    opacity: 1;
+}
+
+.signup {
+    background-color: #239b76;
+}
+
+.facebook {
+    background-color: #3b5998;
+    margin-right: 20px;
+}
+
+.twitter {
+    background-color: #55acee;
+    margin-right: 20px;
+}
+
+.instagram {
+    background-color: mediumvioletred;
+}
+
+.btn-wrapper {
+    margin: 20px;
+}
+
+.btn-wrapper p {
+    margin: 10px;
+    padding: 20px 0 0 0;
+}
+
+.fab{
+    margin-right: 5px;
+}
+
+.menu-icon {
+    color: white;
+    float: right;
+    font-size: 25px;
+    padding: 21px 0;
+    display: none;
+
+}
+.lesson-wrapper {
+    padding-right: 5%;
+    padding-left: 5%;
+    padding-bottom: 80px;
+    background-color: #f7f7f7;
+    text-align: center;
+    height: 400px;
+}
+
+.heading {
+    padding: 60px 0 30px 0;
+    color: #5f5d60;
+}
+
+.heading h2 {
+    font-weight: normal;
+    text-align: center;
+}
+
+.lesson {
+    float: left;
+    width: 25%;
+}
+
+.lesson-icon {
+    position: relative;
+}
+
+.lesson-icon p {
+    position: absolute;
+    top: 80px;
+    width: 100%;
+    color: white;
+}
+
+.text-contents {
+    width: 80%;
+    display: inline-block;
+    margin: 20px 0 0 0;
+    font-size: 12px;
+    color: #b3aeb5;
+    display: none;
+}
+
+.text-active {
+    display: block;
+}
+
+.faq-wrapper {
+    background-color: #e6ecf0;
+    text-align: center;
+    padding-bottom: 80px;
+    color: #5f5d60;
+}
+  
+#faq-list {
+    width: 500px;
+    margin: 0 auto;
+    padding: 0;
+    list-style: none;
+}
+
+.faq-list-item {
+    margin:10px;
+    border-bottom:1px solid #ccc;
+    position:relative;
+    cursor:pointer;
+    text-align: left;
+}
+  
+.faq-list-item h3 {
+    font-size: 14px;
+}
+  
+.faq-list-item span {
+    position:absolute;
+    top:0;
+    right:5px;
+    color:#ccc;
+    font-size:13px;
+}
+  
+.answer {
+    font-size: 12px;
+    padding: 5px 0px;
+    margin-bottom: 15px;
+    display: none;
+}
+
+
+.message-wrapper {
+    border-bottom: 1px solid #eee;
+    padding-bottom: 80px;
+    text-align: center;
+}
+
+.heading h3 {
+    font-weight: normal;
+}
+
+.message {
+    background-color: #5dca88;
+    padding: 15px 40px;
+    cursor: pointer;
+    box-shadow: 0 7px #1a7940;
+}
+
+.message:active {
+    box-shadow: none;
+    position: relative;
+    top: 7px;
+}
+
+.contact-section {
+    color: #6a6a6a;
+}
+  
+.contact-section-inner {
+    padding-bottom: 70px;
+}
+  
+.contact-section h3, .contact-section h4 {
+    color: #404040;
+}
+  
+.contact-section h4 {
+    font-size: 22px;
+    padding-bottom: 10px;
+}
+  
+.contact-form input[type="text"], .contact-form textarea {
+    margin: 0;
+    padding: 0 10px;
+    vertical-align: middle;
+    background: rgba(0, 0, 0, 0.08);
+    border: none;
+    width: 85%;
+    color: #202020;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    border-radius: 0;
+    box-shadow: none;
+    transition: all .3s;
+    margin-bottom: 10px;
+    padding: 15px;
+}
+  
+textarea {
+    height: 150px;
+}
+
+.contact-form {
+    display: inline-block;
+    vertical-align: top;
+    width: 58%;
+}
+  
+.btn-contact {
+    font-family: 'Dosis', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    background: #5983ff;
+    border: 1px solid #5979ff;
+    color: white;
+    box-shadow: inset 0 1px 0 #5867ed;
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+    transition: all .3s;
+    margin: 10px 0;
+    padding: 15px 35px;
+}
+  
+.contact-about {
+    display: inline-block;
+    vertical-align: top;
+    width: 40%;
+}
+  
+.contact-about i {
+    padding-right: 15px;
+    font-size: 18px;
+}
+  
+.contact-about p {
+    margin: 0 0 24px;
+    line-height: 24px;
+}
+  
+.error-message {
+    color: #F51414;
+    height: 20px;
+}
+
+footer {
+    padding-top: 30px;
+}
+
+footer img {
+    width: 125px;
+}
+
+footer p {
+    color: #b3aeb5;
+    font-size: 12px;
+}
