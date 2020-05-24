@@ -68,7 +68,7 @@
         </div>
         <footer>
             <div class="container">
-                <img src="file:///Users/motyu20/Downloads/logo%20(3).png">
+                <img src="logo (3).png">
                 <p>Let's eat together.Be happy!</p>
             </div>
         </footer>
