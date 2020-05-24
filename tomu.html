@@ -8,6 +8,7 @@
         <meta name="viewport" contnts="width-device-width, initial-scale-1.0">
         <link rel="stylesheet" href="final.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+      </head>
     <body>
         <header>
             <div class="container">
@@ -156,14 +157,16 @@
                 </div>
                 <div class="contact-form">
                   <h4>メッセージを送る</h4>
-                  <form>
-                    <div class="error-message"></div>
-                    <input type="text" name="name" placeholder="お名前" class="contact-name">
-                    <div class="error-message"></div>
-                    <input type="text" name="email" placeholder="メールアドレス" class="contact-email">
-                    <div class="error-message"></div>
-                    <textarea name="message" placeholder="メッセージ内容"></textarea>
-                    <button type="submit" class="btn btn-contact">送信</button>
+                  <form method="post" action="sent.php">
+                    <form>
+                      <div class="error-message"></div>
+                      <input type="text" name="name" placeholder="お名前" class="contact-name">
+                      <div class="error-message"></div>
+                      <input type="text" name="email" placeholder="メールアドレス" class="contact-email">
+                      <div class="error-message"></div>
+                      <textarea name="message" placeholder="メッセージ内容"></textarea>
+                      <button type="submit" class="btn btn-contact">送信</button>
+                    </form>
                   </form>
                 </div>
                 <div class="contact-about">
