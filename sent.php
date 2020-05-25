@@ -54,6 +54,7 @@
                   </form>
                 </div>
               </div>
+        </div>
         <div class="main">
             <h3>メッセージいただきありがとうございます。</h3>
             <div class="display-contact">
