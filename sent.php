@@ -36,8 +36,7 @@
                     <div id="submit-btn">新規登録</div>
                   </form>
                 </div>
-              </div>
-
+            </div>
         </div>
         <div class="login-modal-wrapper" id="login-modal">
             <div class="modal">

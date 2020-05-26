@@ -152,6 +152,7 @@
         <div id="contact" class="contact-section gray-section">
             <div class="contact-section-inner">
               <div class="container">
+                <?php include 'sent.php'; ?>
                 <div class="section-title">
                   <h3>お問い合わせ</h3>
                 </div>
